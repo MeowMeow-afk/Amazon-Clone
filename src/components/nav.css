@@ -1,0 +1,80 @@
+.Nav {
+  display: flex;
+  background-color: #131921;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+.amazon__logo {
+  height: 3.5rem;
+  margin: 1.8rem 2rem;
+  margin-right: 2.5rem;
+  margin-bottom: 0.6rem;
+  padding-top: 0.9rem;
+  object-fit: contain;
+}
+.nav__searchbox {
+  display: flex;
+  width: 100%;
+}
+.nav__search {
+  flex: 1;
+  padding: 0.8rem;
+  border: none;
+}
+.nav__searchIcon {
+  background-color: orange;
+  padding: 1rem;
+  cursor: pointer;
+}
+.links {
+  margin-left: 1.5rem;
+  display: flex;
+}
+
+.navbar__links {
+  text-decoration: none;
+}
+.nav__links {
+  display: flex;
+  flex-direction: column;
+  padding-top: 0.1rem;
+  padding: 1rem;
+  color: aliceblue;
+  text-decoration: none;
+  width: 7.8rem;
+}
+.addBorder {
+  outline: 0.1rem solid white;
+  outline-offset: -0.2rem;
+}
+.first__span {
+  font-size: 1rem;
+}
+.second__span {
+  font-weight: 800;
+}
+.basket {
+  padding: 1.5rem;
+  display: flex;
+  margin-left: 0.2rem;
+  gap: 1rem;
+  margin-right: 2.5rem;
+}
+.Basket__icon {
+  color: aliceblue;
+}
+.basket span {
+  color: aliceblue;
+}
+.Menu__icon {
+  color: aliceblue;
+  transform: scale(1.8);
+  cursor: pointer;
+  margin-left: 1.5rem;
+}
+.Menu__icon:hover {
+  outline: 0.1rem solid white;
+  outline-offset: 0.2rem;
+}

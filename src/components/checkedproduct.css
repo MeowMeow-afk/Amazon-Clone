@@ -1,0 +1,36 @@
+.my__checked__products {
+  background-color: white;
+  display: flex;
+  gap: 3rem;
+  padding: 1.5rem;
+}
+.checked__product__image {
+  height: 20rem;
+  width: 20rem;
+  object-fit: contain;
+}
+.checked__product__info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+.btn {
+  -webkit-border-radius: 3;
+  -moz-border-radius: 3;
+  border-radius: 0.5rem;
+  font-family: Arial;
+  color: #000000;
+  font-size: 1.3rem;
+  background: #f0c14b;
+  padding: 0.6rem 4rem 0.7rem 4rem;
+  text-decoration: none;
+  border: none;
+  margin-bottom: 2rem;
+}
+
+.btn:hover {
+  background: #e3af03;
+  text-decoration: none;
+}

@@ -1,0 +1,17 @@
+.home {
+  max-width: 140rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.home__image {
+  width: 100%;
+  object-fit: contain;
+  mask-image: linear-gradient(180deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+  z-index: -1;
+  margin-bottom: -15rem;
+}
+.home__row {
+  display: flex;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}

@@ -1,0 +1,138 @@
+.footer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.footer > a {
+  text-decoration: none;
+}
+.footer__1 {
+  display: flex;
+  width: 100%;
+}
+.footer__1 > button {
+  cursor: pointer;
+  width: 100%;
+  border: 0;
+  background-color: #37475a;
+  color: white;
+
+  font-size: 1.5rem;
+  height: 5rem;
+}
+.footer__1 > button:hover {
+  background-color: #232f3e;
+}
+.footer__2 {
+  display: flex;
+  gap: 10rem;
+  justify-content: center;
+  background-color: #232f3e;
+}
+.footer__list > ul {
+  list-style: none;
+  padding-top: 4rem;
+  padding-bottom: 5rem;
+  color: #999999;
+  cursor: pointer;
+}
+.footer__list > ul li:hover {
+  text-decoration: underline;
+}
+.footer__list > ul li {
+  padding-top: 0.5rem;
+}
+.footer__list > ul li:first-child:hover {
+  text-decoration: none;
+}
+.footer__list > ul li:first-child {
+  font-weight: 800;
+  color: white;
+  cursor: text;
+}
+.footer__3 {
+  background-color: #232f3e;
+  border-top: 0.1rem solid #3a4553;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.footer__3__list1 {
+  display: flex;
+  gap: 10rem;
+  justify-content: center;
+  padding-top: 2rem;
+}
+.footer__3__list2 {
+  display: flex;
+  justify-content: center;
+}
+.footer__3__list2 {
+  padding-bottom: 3rem;
+}
+.footer__3__list2 ul li {
+  display: inline;
+  margin-left: 2rem;
+  color: #dddddd;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+.footer__3__list2 ul li:hover {
+  text-decoration: underline;
+}
+.footer__4 {
+  background-color: #131a22;
+  display: flex;
+  justify-content: center;
+  gap: 10rem;
+}
+.footer__4__list {
+  padding-top: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.footer__4__div1 > a {
+  text-decoration: none;
+}
+.footer__4__div1 > a > ul {
+  list-style: none;
+  color: #999999;
+  font-size: 1.3rem;
+}
+.footer__4__div1 > a > ul:hover {
+  text-decoration: underline;
+}
+.footer__4__div1 > a > ul li:first-child {
+  font-weight: 600;
+  color: #dddddd;
+}
+.footer__4__div2 > a {
+  text-decoration: none;
+}
+.footer__4__div2 > a > ul {
+  list-style: none;
+  color: #999999;
+  font-size: 1.3rem;
+}
+.footer__4__div2 > a > ul:hover {
+  text-decoration: underline;
+}
+
+.footer__4__div2 > a > ul li:first-child {
+  font-weight: 600;
+  color: #dddddd;
+}
+.footer__5 {
+  background-color: #131a22;
+  padding: 4rem;
+  display: flex;
+  justify-content: center;
+}
+.footer__5 div > ul {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+  color: #dddddd;
+  font-size: 1.5rem;
+}
